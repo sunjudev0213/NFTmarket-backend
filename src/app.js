@@ -2,7 +2,6 @@ const express = require('express');
 const morgan = require('morgan');
 const helmet = require('helmet');
 const cors = require('cors');
-const tools = require('./lib/tools');
 const log = require('./lib/logger')();
 
 const middlewares = require('./middlewares');
