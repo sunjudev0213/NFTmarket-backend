@@ -12,7 +12,6 @@ const start = async () => {
         log.info(`Listening: http://localhost:${PORT}`);
         /* eslint-enable no-console */
     });
-    await tools.init();
 }
 
 // Run the server!
