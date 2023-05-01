@@ -1,6 +1,5 @@
 require('dotenv').config();
 const app = require('./app');
-const tools = require('./lib/tools');
 const log = require('./lib/logger')();
 
 const PORT = process.env.PORT || 80;
